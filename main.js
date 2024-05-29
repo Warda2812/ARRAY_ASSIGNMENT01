@@ -22,12 +22,12 @@ console.log("Adding grape to the end of the array: ", fruits);
 // OUTPUT: Adding grape to the end of the array:  [ 'apple', 'banana', 'mango', 'orange', 'grape' ]
 // Question 6: Remove the last element from the fruits array using the method and assign it to a variable named lastFruit.
 var lastFruit = fruits.pop();
-console.log("Removing the last element of fruits array: ", lastFruit);
-// OUTPUT: Removing the last element of fruits array:  grape
+console.log("Removing the last element of fruits array: ", fruits);
+// OUTPUT: Removing the last element of fruits array:  [ 'apple', 'banana', 'mango', 'orange' ]
 // Question 7: Remove the first element from the fruits array using the method and assign it to a variable named firstFruit.
 var firstFruit = fruits.shift();
 console.log("Removing the first element from fruits array: ", firstFruit);
-// OUTPUT: Removing the first element from fruits array:  apple
+// OUTPUT: Removing the first element from fruits array:  [ 'banana', 'mango', 'orange' ]
 // Question 8: Add the element "kiwi" to the beginning of the fruits array using the method.
 fruits.unshift("kiwi");
 console.log("Adding Kiwi to the beginning of fruits array: ", fruits);
